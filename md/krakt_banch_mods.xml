@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Krakt_Banch_Mods" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+    <cues>
+        <cue name="Init" instantiate="true">
+            <conditions>
+                <event_cue_signalled cue="md.Setup.Start" />
+            </conditions>
+            <actions>
+                <add_blueprints wares="ware.mod_ship_policeradarrange_01_mk1" />
+                <add_blueprints wares="ware.mod_ship_hidecargo_01_mk1" />
+                <add_blueprints wares="ware.mod_ship_hidecargo_01_mk2" />
+            </actions>
+        </cue>
+    </cues>
+</mdscript>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <add sel="/wares">
+        <ware id="mod_ship_policeradarrange_01_mk1" name="{1171171982,1}" description="{1171171982,2}" transport="inventory" volume="1" tags="crafting equipmentmod">
+            <price min="1" average="1" max="1"/>
+            <production time="10" amount="1" method="default" name="{20206,101}">
+                <primary>
+                    <ware ware="modpart_nividiumcrystallite" amount="3" />
+                    <ware ware="modpart_shipnanoweave_t1" amount="1" />
+                </primary>
+            </production>
+        </ware>
+        <ware id="mod_ship_hidecargo_01_mk1" name="{1171171982,3}" description="{1171171982,4}" transport="inventory" volume="1" tags="crafting equipmentmod">
+            <price min="1" average="1" max="1"/>
+            <production time="10" amount="1" method="default" name="{20206,101}">
+                <primary>
+                    <ware ware="modpart_nividiumcrystallite" amount="3" />
+                    <ware ware="modpart_shipnanoweave_t1" amount="1" />
+                </primary>
+            </production>
+        </ware>
+        <ware id="mod_ship_hidecargo_01_mk2" name="{1171171982,5}" description="{1171171982,6}" transport="inventory" volume="1" tags="crafting equipmentmod">
+            <price min="1" average="1" max="1"/>
+            <production time="10" amount="1" method="default" name="{20206,101}">
+                <primary>
+                    <ware ware="modpart_nividiumcrystallite" amount="3" />
+                    <ware ware="modpart_shipnanoweave_t2" amount="1" />
+                </primary>
+            </production>
+        </ware>
+    </add>
+</diff>

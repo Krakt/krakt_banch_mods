@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language id="44">
+    <page id="1171171982" voice="no">
+        <t id="1">Police Scanner Range</t>
+        <t id="2">Component to increase a ship radar range mostly used on police and patrol ships</t>
+        <t id="3">Smuggler Cache</t>
+        <t id="4">Component to create a smulgling cache</t>
+        <t id="5">Smuggler Concealment</t>
+        <t id="6">Component to create a good smuggler concealment</t>
+    </page>
+</language>

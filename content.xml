@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="krakt_banch_mods" name="Krakt Banch mods" description="Add recipices to the modification bench for ship" author="Krakt" version="1" date="2025-17-02" save="0" enabled="0">
+    <text language="33" name="Krakt Banch mods" description="Le joureur peut rajouter des nouvelles modification à leur vaisseau à partir du plan de travail. Pas besoin de recherche" author="Krakt" />
+    <text language="44" name="Krakt Banch mods" description="Player can add a new modifications to ship from the bench. No reaserch needed." author="Krakt" />
+</content>

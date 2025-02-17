@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- NB:
+      chance is a float from 0 to 1
+      entering a min with no max or max with no min can result in a value below min or above max.
+      the min property in <bonus min=""/> doesn't do anything.
+      min and max for capacity mods such as countermeasurecapacity require ints.-->
+
+    <!-- Ship mod -->
+    <add sel="/equipmentmods/ship">
+        <!-- neeed to add +1 for the min max. EX. 3 = 200% an not 300%. -->
+        <radarrange ware="mod_ship_policeradarrange_01_mk1" quality="1" min="4" max="7"/>
+        <!-- 50% chance to conceal the cargo hold. -->
+        <hidecargochance ware="mod_ship_hidecargo_01_mk1" quality="1" min="0.5" max="0.5"/>
+        <!-- 75% chance to conceal the cargo hold. -->
+        <hidecargochance ware="mod_ship_hidecargo_01_mk2" quality="2" min="0.75" max="0.75"/>
+    </add>
+</diff>
